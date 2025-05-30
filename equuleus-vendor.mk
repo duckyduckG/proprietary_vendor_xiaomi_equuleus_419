@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/equuleus/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/xiaomi/equuleus/proprietary/vendor/etc/gpsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpsconfig.xml \
     vendor/xiaomi/equuleus/proprietary/vendor/etc/hdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_config.cfg \
-    vendor/xiaomi/equuleus/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/equuleus/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/xiaomi/equuleus/proprietary/vendor/etc/init/vendor.qti.secure_element@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.0-service.rc \
     vendor/xiaomi/equuleus/proprietary/vendor/etc/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lhd.conf \
@@ -217,15 +216,11 @@ PRODUCT_PACKAGES += \
     libtonemapalgo \
     libvidhance \
     android.hardware.gnss@2.0-impl-xiaomi \
-    android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.keymaster@3.0-impl-qti \
     android.hardware.secure_element@1.0-impl \
     fingerprint.goodix_fod.sdm845 \
     flp.brcm \
     gps.brcm \
-    vendor.qti.hardware.bluetooth_sar@1.0-impl \
-    vendor.qti.hardware.btconfigstore@1.0-impl \
-    libbtnv \
     libdiagjni \
     libgf_ca_gf9118 \
     libgf_hal_gf9118 \
@@ -233,13 +228,11 @@ PRODUCT_PACKAGES += \
     libgps.utils \
     libnanopb \
     sensors.ssc \
-    vendor.qti.hardware.bluetooth_sar@1.0 \
     dirac_resource \
     libarcsoft_dualcam_refocus_skel \
     misound_res \
     glgps \
     gps.cer \
-    android.hardware.bluetooth@1.0-service-qti \
     android.hardware.keymaster@3.0-service-qti \
     vendor.qti.secure_element@1.0-service \
     ignss_2_0 \
